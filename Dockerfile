@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/devcontainers/go:1-1.22-bookworm
 WORKDIR /usr/src/app
 
 # Install JDK, Graphviz, and Gnuplot
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --fix-missing \
     openjdk-17-jdk \
     graphviz \
     gnuplot \
