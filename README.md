@@ -1,4 +1,4 @@
-"# maelstrom-echo" 
+# maelstrom-echo
 
 ## Running Maelstrom 
 
